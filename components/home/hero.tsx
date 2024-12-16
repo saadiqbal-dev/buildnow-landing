@@ -9,7 +9,7 @@ import GradualSpacing from "@/components/ui/gradual-spacing";
 export default function Hero() {
   return (
     <section className="relative flex flex-col items-center justify-center gap-12 py-16 px-4 text-center  max-h-[100vh] w-full">
-      <AnimatedGradientText className="z-10 bg-black/10 text-black">
+      <AnimatedGradientText className="z-10 bg-white text-black">
         🎉 <hr className="mx-2 h-4 w-px shrink-0 bg-gray-300" />{" "}
         <span
           className={cn(
@@ -22,13 +22,13 @@ export default function Hero() {
       </AnimatedGradientText>
 
       <div className="flex items-center flex-col gap-4 z-10 text-black">
-        {/* <h1 className="font-bold text-6xl">Buildnow.ai</h1> */}
-        <GradualSpacing
+        <h1 className="font-bold text-6xl">Buildnow.ai</h1>
+        {/* <GradualSpacing
           className="font-display text-center text-4xl font-bold -tracking-widest  text-black dark:text-white md:text-7xl md:leading-[5rem]"
           text="Buildnow.ai"
-        />
+        /> */}
         <h2 className="font-semibold text-4xl">
-          AI-Ehnanced Workflow for Call Centers
+          AI-Enhanced Workforce for Contact Centers
         </h2>
         <p className="font-medium text-black">
           Digital Workers That Train Your Team, Provide Video Answers, And Make
@@ -37,9 +37,9 @@ export default function Hero() {
       </div>
 
       <div className="flex gap-3">
-        <Button size="lg" className="z-10">
+        {/* <Button size="lg" className="z-10">
           Contact Us
-        </Button>
+        </Button> */}
         <Button
           size="lg"
           className="z-10"
@@ -51,11 +51,11 @@ export default function Hero() {
             );
           }}
         >
-          Calendly
+          Contact Us!
         </Button>
       </div>
 
-      <AnimatedGridPattern
+      {/* <AnimatedGridPattern
         numSquares={30}
         maxOpacity={0.1}
         duration={3}
@@ -64,7 +64,7 @@ export default function Hero() {
           "[mask-image:radial-gradient(500px_circle_at_center,white,transparent)]",
           "inset-x-0 inset-y-[0%] h-[100%] skew-y-12"
         )}
-      />
+      /> */}
     </section>
   );
 }

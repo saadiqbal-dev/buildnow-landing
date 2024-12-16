@@ -4,8 +4,7 @@ import AnimatedGradientText from "@/components/ui/animated-gradient-text";
 import { cn } from "@/lib/utils";
 import { ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import AnimatedGridPattern from "../ui/animated-grid-pattern";
-import GradualSpacing from "@/components/ui/gradual-spacing";
+
 export default function Hero() {
   return (
     <section className="relative flex flex-col items-center justify-center gap-12 py-16 px-4 text-center  max-h-[100vh] w-full">
